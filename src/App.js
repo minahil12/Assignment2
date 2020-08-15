@@ -49,39 +49,39 @@ handleCheckbox(e){
   <Row id='r2' >
   <Col>
     <input id="c1"  type='checkBox' onChange={this.handleCheckbox.bind(this)} checked={this.state.checkbox}></input>
-    <input type='text' class="inputt" pattern="[0-9]{2}" max='100' disabled={!this.state.checkbox} ></input>
+    <input type='text' class="inputt" pattern="[0-9]{1,2}" max='100' disabled={!this.state.checkbox} ></input>
     <label id="c1">%</label>
     </Col>
 
     <Col>
     <input id="c1"  type='checkBox' onChange={this.handleCheckbox.bind(this)} checked={this.state.checkbox}></input>
-    <input type='text' class="inputt" pattern="[0-9]{2}" max='100' disabled={!this.state.checkbox}></input>
+    <input type='text' class="inputt" pattern="[0-9]{1,2}" max='100' disabled={!this.state.checkbox}></input>
     <label id="c1">%</label>
     </Col>
   
     <Col>
     <input id="c1"  type='checkBox' onChange={this.handleCheckbox.bind(this)} checked={this.state.checkbox}></input>
-    <input type='text' class="inputt" pattern="[0-9]{2}" max='100' disabled={!this.state.checkbox}></input>
+    <input type='text' class="inputt" pattern="[0-9]{1,2}" max='100' disabled={!this.state.checkbox}></input>
     <label id="c1">%</label>
     </Col>
     <Col>
     <input id="c1"  type='checkBox' onChange={this.handleCheckbox.bind(this)} checked={this.state.checkbox}></input>
-    <input type='text' class="inputt" pattern="[0-9]{2}"  max='100' disabled={!this.state.checkbox}></input>
+    <input type='text' class="inputt" pattern="[0-9]{1,2}"  max='100' disabled={!this.state.checkbox}></input>
     <label id="c1">%</label>
     </Col>
     <Col>
     <input id="c1"  type='checkBox'onChange={this.handleCheckbox.bind(this)} checked={this.state.checkbox}></input>
-    <input type='text' class="inputt" pattern="[0-9]{2}" max='100'disabled={!this.state.checkbox}></input>
+    <input type='text' class="inputt" pattern="[0-9]{1,2}" max='100'disabled={!this.state.checkbox}></input>
     <label id="c1">%</label>
     </Col>
     <Col>
     <input id="c1"  type='checkBox' onChange={this.handleCheckbox.bind(this)} checked={this.state.checkbox}></input>
-    <input type='text' class="inputt" pattern="[0-9]{2}" max='100' disabled={!this.state.checkbox}></input>
+    <input type='text' class="inputt" pattern="[0-9]{1,2}" max='100' disabled={!this.state.checkbox}></input>
     <label id="c1">%</label>
     </Col>
     <Col>
     <input id="c1"  type='checkBox' onChange={this.handleCheckbox.bind(this)} checked={this.state.checkbox}></input>
-    <input type='text' class="inputt" pattern="[0-9]{2}" max='100'  disabled={!this.state.checkbox}></input>
+    <input type='text' class="inputt" pattern="[0-9]{1,2}" max='100'  disabled={!this.state.checkbox}></input>
     <label id="c1">%</label>
     </Col>
     
